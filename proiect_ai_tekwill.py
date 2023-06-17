@@ -56,7 +56,7 @@ from qiskit import Aer, execute
 backend = Aer.get_backend('qasm_simulator')
 
 from qiskit import IBMQ
-IBMQ.save account('<your TOKEN>')
+IBMQ.save_account('<your TOKEN>')
 
 IBMQ.load_account()
 provider = IBMQ.get_backend('ibmq_manila')
